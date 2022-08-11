@@ -40,6 +40,7 @@ nav {
 }
 
 .nav-list {
+    display: flex;
     list-style: none;
 }
 
@@ -72,7 +73,7 @@ h1 {
 /*MAIN*/
 
 .main {
-    background-color: #e4dada;
+    background-color: #ecdfdf;
 }
 
 
@@ -222,4 +223,114 @@ h3 {
 
 .type p:last-child {
     margin-bottom: 80px;
+}
+
+
+/*Section Previews*/
+
+.block-review {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prev {
+    margin-right: 29px;
+}
+
+.prev-img {
+    transform: rotateY(180deg);
+}
+
+.next {
+    margin-left: 29px;
+}
+
+.block-reviewText {
+    line-height: 30px;
+    margin-right: 20px;
+}
+
+.block-reviewPhoto {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+/*Section Application*/
+
+.add-application {
+    
+    margin-top: 65px;
+}
+
+.blocks-theme {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(141, 115, 112, 1);
+}
+
+.block-application {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-footer {
+    margin-top: 50px;
+    margin-bottom: 22px;
+    padding-right: 60px;
+}
+
+.block-application p {
+    margin-bottom: 44px;
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(246, 237, 233, 1);
+}
+
+input {
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 40px;
+    
+    border: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 1);
+    background-color: #8D7370;
+    outline: 0;  
+}
+
+input::-webkit-input-placeholder { 
+    color: rgba(246, 237, 233, 1); 
+}
+
+.btn-footer {
+    width: 309px;
+}
+
+/*FOOTER*/
+
+.footer {
+    background-color: #ecdfdf;
+}
+
+.footer-container {
+
+    flex-direction: row;
+}
+
+.adress-block {
+    display: flex;
+    
+}    
+
+.phone {
+  margin-left: 100px;
+  margin-right: 42px;
+}
+
+.city {
+    margin-right: 379px;
 }
