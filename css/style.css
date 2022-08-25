@@ -3,7 +3,7 @@
 }
 
 body {
-    height: 100%;
+    width: 100%;
     padding: 0;
     margin: 0;
     color: rgba(83, 55, 56, 1);
@@ -12,8 +12,6 @@ body {
     font-weight: 400;
     font-size: 18px;
 
-    /*cursor: pointer;
-    scroll-behavior: smooth;*/
 }
 
 .container {
@@ -26,6 +24,7 @@ body {
 
 .header {
     background: url('../assets/img/background-header.jpg') no-repeat center;
+    background-size: cover;
     height: 715px;
 }
 
@@ -44,16 +43,14 @@ nav {
     list-style: none;
 }
 
-.nav-item {
-
-}
-
 .nav-link {
+    display: flex;
+    padding-right: 26px;
     text-decoration: none;
 }
 
 .promo {
-    margin-left: 185px;
+    margin-left: 180px;
 }
 
 h1 {
@@ -68,6 +65,13 @@ h1 {
     background: #CC8B86;
     border: none;
     font-size: 20px;
+}
+
+.phone {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: rgba(83, 55, 56, 1);
 }
 
 /*MAIN*/
@@ -133,7 +137,7 @@ h1 {
 /*Section portfolio*/
 
 .portfolio {
-    margin-left: 100px;
+    padding-left: 100px;
 }
 
 .our-work img{
@@ -323,11 +327,10 @@ input::-webkit-input-placeholder {
 
 .adress-block {
     display: flex;
-    
+    padding-left: 50px;
 }    
 
 .phone {
-  margin-left: 100px;
   margin-right: 42px;
 }
 
